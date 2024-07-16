@@ -1,2 +1,2 @@
-#Py-py
-Primer commit :)
+# Py-py
+Primeros pasos con Python. La idea es fortalecer Flask.

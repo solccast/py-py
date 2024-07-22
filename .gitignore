@@ -1,6 +1,5 @@
 env/
 .env
-templates/
 __pycache__/
 *.py[cod]
 

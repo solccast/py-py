@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinja</title>
+</head>
+<body>
+    <h1>Hola!!!</h1> 
+    <p>Con unllave%extends unhtmlpadrellavepodemos definir un layout generico. Pensarlo como jerarquía de clases</p>
+    <p>{{data.bienvenida}}</p>
+    {% if data.length > 10 %} <!--Formas en que puede recibir Jinja la data de forma dinámica-->
+    <ul>
+        {% for c in data.cursos %}
+        <li> {{c}}
+            {% endfor%}
+        </ul>
+        {% else %}
+        <h2> Ups ¡está vacío esto!</h2>
+        {%endif%}
+        
+</body>
+</html>
